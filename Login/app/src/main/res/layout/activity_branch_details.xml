@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".branch_details">
+
+    <TextView
+        android:id="@+id/bd1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Branch Details"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/bd2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/bd3"
+        android:layout_width="227dp"
+        android:layout_height="85dp"
+        android:lineSpacingExtra="8sp"
+        android:text="PES College,100 Feet Ring Road, BSK III Stage, Bangalore-560085"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/bd4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Branch Code"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/bd5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="abcd1234"
+        android:textSize="18sp" />
+
+</LinearLayout>
